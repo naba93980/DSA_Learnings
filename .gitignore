@@ -1,0 +1,7 @@
+node_modules/
+**.exe
+C++/dsa/.vscode/c_cpp_properties.json
+C++/dsa/.vscode/launch.json
+C++/dsa/.vscode/settings.json
+C++/lovebabbar_DSA/.vscode/c_cpp_properties.json
+C++/lovebabbar_DSA/.vscode/launch.json

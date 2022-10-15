@@ -1,0 +1,32 @@
+everything is walk
+a open walk is trail - no edges repeated
+a open walk is path - no edges AND vertices repeated
+a closed path - starting and ending vertex same - is a cycle
+
+
+types of graph - 
+undirected. directed, bidirectional, null graph, 
+connected, disconnected(node), self-loop,
+weighted, unweighted
+
+ways to represent graph - adjacency list, adjacency matrix
+
+a ----------b                   
+ |          /   |
+ |      /       |
+ |   /          |
+c              d
+
+adjacency matrix representtion - 
+
+0 1 1 0
+1 0 1 1
+1 1 0 0
+0 1 0 0
+
+adjacency list representtion - 
+
+a -> [b,c]
+b -> [a,c,d]
+c -> [a,b]
+c -> [b]
