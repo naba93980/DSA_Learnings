@@ -1,0 +1,14 @@
+Insertion in heap:
+
+Step 1: Insert the new element at the next available position (the bottom of the heap).
+
+Step 2: Compare the newly inserted element with its parent. If the newly inserted element has a higher priority (in a max-heap) or a lower priority (in a min-heap) than its parent, swap them.
+
+Step 3: Repeat step 2 until the heap property is satisfied or until the new element reaches the root of the heap.
+
+
+Deletion in heap:
+
+Step 1: Remove the root element (the element with the highest priority in a max-heap) and replace it with the last element in the heap (usually the rightmost element in the bottom level).
+
+Step 2: "Bubble down" the new root element by comparing it with its children and swapping it with the child that has a higher priority (in a max-heap) or a lower priority (in a min-heap) until the heap property is satisfied.
